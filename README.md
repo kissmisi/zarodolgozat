@@ -9,4 +9,4 @@ Telepítés:
 
 Használat:
 - Nyissuk meg a Visual Studio Code-ot, majd keressük ki a gyuszaki mappát, azon belül a Frontend mappát, és nyissuk meg.
-- Insítsuk el Live Serveren az index.html fájlt.
+- Indítsuk el Live Serveren az index.html fájlt.
