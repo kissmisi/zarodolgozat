@@ -1,0 +1,55 @@
+.nav-link {
+    color: black;
+    font-weight: bolder;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    
+}
+
+label {
+    color: black;
+    font-weight: bolder;
+}
+
+.logreg {
+    width: 50%;
+    margin: auto;
+}
+
+.radiobutton {
+    float: none;
+    margin-left: 0px;
+}
+
+.userform {
+    width: 100%;
+}
+
+.userform2 {
+    width: 70%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.felirat {
+    font-size: xx-large;  
+    font-family: righteousregular;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+
+}

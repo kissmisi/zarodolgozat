@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules\bootstrap\dist\css\bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/felhasznalok.js"></script>
+    <script src="js/adatok.js"></script>
+    <script src="js/adatokPost.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/main.js"></script>
+    <title>Kezdőlap</title>
+  </head>
+  <body onload="currentYear()" class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-sm bg-danger navbar-light">
+      <div class="container-fluid">
+        <div class="container m-0 p-0" style="width: 5%;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link m-0 p-0" href="index.html"><img src="./Képek/Logo/egybe2.png" alt="logo"
+                title="logo" class="logo"></a>
+            <li class="nav-item">
+          </ul>
+        </div>
+        <div class="container m-0 p-0 mr-0 col-md-2"><a class="nav-link felirat container m-0 p-0" href="index.html">GYUSZAKI</a></div>
+        <div class="container"><a class="nav-link" href="./klimaberendezesek.html">Klímaberendezések</a></div>
+        <div id="loggedInUser">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="regisztracio.html">
+                <button class="btn btn-dark">Regisztráció</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bejelentkezes.html">
+                <button class="btn btn-dark">Bejelentkezés</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- Carousel -->
+    <div id="indexCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators" style="filter: invert(100%);">
+        <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="4"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="http://nodejs.dszcbaross.edu.hu:20018/AUX-delta-szett-nagy-300-RAC-KT-1.jpg" alt="Los Angeles" title="AUX-delta-szett-nagy-300-RAC-KT-1" class="d-flex" style="margin: auto; width: 40%;">
+        </div>
+        <div class="carousel-item">
+          <img src="http://nodejs.dszcbaross.edu.hu:20018/GWH09AGA-K6DNA1A.jpg" alt="GWH09AGA-K6DNA1A" class="d-flex" style="margin: auto; width: 40%;">
+        </div>
+        <div class="carousel-item">
+          <img src="http://nodejs.dszcbaross.edu.hu:20018/RCOOL.jpg" alt="RCOOL" title="RCOOL" class="d-flex" style="margin: auto; width: 40%;">
+        </div>
+        <div class="carousel-item">
+          <img src="http://nodejs.dszcbaross.edu.hu:20018/Rcool-Solo.jpeg" alt="RCOOL" title="RCOOL" class="d-flex" style="margin: auto; width: 40%;">
+        </div>
+        <div class="carousel-item">
+          <img src="http://nodejs.dszcbaross.edu.hu:20018/cassette_pro_3.jpg" alt="RCOOL" title="RCOOL" class="d-flex" style="margin: auto; width: 40%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#indexCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" style="filter: invert(100%);"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#indexCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="filter: invert(100%);"></span>
+      </button>
+    </div>
+
+    <footer class="sticky-footer">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Valami</h5>
+              <ul class="list-unstyled mb-0">
+              <li>
+                <a href="" class="text-dark">Elérhetőségek</a>
+              </li>
+              <li>
+                <a href="" class="text-dark">Rólunk</a>
+              </li>
+            </ul>
+            </h5>
+          </div>
+          
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id="year">
+      
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>

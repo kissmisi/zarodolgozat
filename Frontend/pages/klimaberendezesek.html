@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../fontawesome/css/brands.css">
+  <link rel="stylesheet" href="../fontawesome/css/fontawesome.css">
+  <link rel="stylesheet" href="../fontawesome/css/solid.css">
+  <script src="../js/felhasznalok.js"></script>
+  <script src="../js/adatok.js"></script>
+  <script src="../js/adatokPost.js"></script>
+  <script src="../js/form.js"></script>
+  <script src="../js/main.js"></script>
+  <title>Klímaberendezések</title>
+</head>
+
+<body onload="melyikNev(); klimaberendezesek3(), currentYear()">
+  <nav class="navbar navbar-expand-sm bg-danger navbar-light">
+    <div class="container-fluid">
+      <div class="container m-0 p-0" style="width: 5%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link m-0 p-0" href="loggedINDEX.html"><img src="../Képek/Logo/egybe2.png" alt="logo"
+              title="logo" class="logo"></a>
+          <li class="nav-item">
+        </ul>
+      </div>
+      <div style="width: 81%;"><a class="nav-link felirat container m-0 p-0" href="loggedINDEX.html">GYUSZAKI</a></div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a a class="nav-link" href="kosar.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="user.html">
+            <i class="fa-solid fa-user"></i>
+            <span class="mr-2" id="loggedInUser"></span>
+          </a>
+        </li>
+        <li class="nav-item nav-link" style="margin-left: 10px;">
+          <i class="fa-solid fa-bars btn" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Offcanvas Sidebar -->
+  <div class="offcanvas offcanvas-end" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Heading</h1>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p><a href="klimaberendezesek.html" style="text-decoration: none; color: black;">Klímaberendezések</a></p>
+    </div>
+  </div>
+  <div class="container" id="klimaTable">
+
+  </div>
+  <footer class="sticky-footer">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Valami</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="" class="text-dark">Elérhetőségek</a>
+            </li>
+            <li>
+              <a href="" class="text-dark">Rólunk</a>
+            </li>
+          </ul>
+          </h5>
+        </div>
+
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id="year">
+
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+
+</html>
